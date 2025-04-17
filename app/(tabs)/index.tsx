@@ -1,14 +1,7 @@
 import { icons } from "@/constants/icons";
 import { images } from "@/constants/images";
 import MovieCard from "@/components/MovieCard";
-import {
-  View,
-  Text,
-  Image,
-  ScrollView,
-  ActivityIndicator,
-  FlatList,
-} from "react-native";
+import { View, Text, Image, ActivityIndicator, FlatList } from "react-native";
 import SearchBar from "@/components/SearchBar";
 import { useRouter } from "expo-router";
 import useFetch from "@/hooks/useFetch";
